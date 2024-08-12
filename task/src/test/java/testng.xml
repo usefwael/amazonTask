@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Amazon Tests">
+    <listeners>
+        <listener class-name="Test.CustomReportListener"/>
+    </listeners>
+
+    <test name="Amazon Test Scenarios">
+        <classes>
+            <class name="Test.LoginTest"/>
+            <class name="Test.CartTest"/>
+            <class name="Test.AmazonAcess"/>
+        </classes>
+    </test>
+</suite>
